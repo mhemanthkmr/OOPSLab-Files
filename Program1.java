@@ -22,7 +22,6 @@ class ElectricityBill {
     }
 
     double Calculate() {
-        int Choice;
         if (EB_Connec == 1) {
             if (ExactReading >= 0 && ExactReading <= 100)
                 Bill = ExactReading * 1;
